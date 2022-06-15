@@ -93,7 +93,7 @@ function validate(){
                 document.getElementById("email").style.border="5px solid green"
                 e=1
 
-                localStorage.setItem("email",user_email)
+                // localStorage.setItem("email",user_email)
               
               
                
@@ -188,7 +188,7 @@ function validate(){
                 document.getElementById("password2").style.border="5px solid green"
                 document.getElementById("password1").style.border="5px solid green"
                 e=1
-              localStorage.setItem("password",pass1)
+            //   localStorage.setItem("password",pass1)
                 
            
                

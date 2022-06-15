@@ -58,32 +58,32 @@ function validation() {
 
 
 
-    if (login_email == a) {
+    // if (login_email == a) {
 
-        if (user_pass == b) {
-           s = 1
-        }
+    //     if (user_pass == b) {
+    //        s = 1
+    //     }
 
-        else {
+    //     else {
 
             
-            console.log('not ')
-            alert("invalid username or password");
-            document.getElementById("user_password").style.border = "5px solid red";
-            document.getElementById("user_email").style.border = "5px solid red";
-            s = 0
-            counter ++
-            console.log(counter)
+    //         console.log('not ')
+    //         alert("invalid username or password");
+    //         document.getElementById("user_password").style.border = "5px solid red";
+    //         document.getElementById("user_email").style.border = "5px solid red";
+    //         s = 0
+    //         counter ++
+    //         console.log(counter)
             
-        }
+    //     }
 
-    }
+    // }
 
-    if(counter==3){
-        alert("maximum attempt exceeded")
+    // if(counter==3){
+    //     alert("maximum attempt exceeded")
 
-        document.getElementById("mybtn").disabled=true
-    }
+    //     document.getElementById("mybtn").disabled=true
+    // }
 
 
 

@@ -26,7 +26,8 @@
         <div class="col-md-3"></div>
         <div class="col-md-6  signin">
             <h2 class="text-center text-capitalize">Signup form </h2>
-            <form action="{% url 'login' %}" method="get">
+            <form action="" method="post">
+              {% csrf_token %}
            
 
                 <div class="form-row mt-4 ">
@@ -49,7 +50,7 @@
                     </div>
                     <div class="col-md-8">
                         <span id="lname_span"></span>
-                  <input type="text" class="form-control" id="lname">
+                  <input type="text" class="form-control" id="lname"name='sname'>
                     </div>
                     </div>
                 </div> 
